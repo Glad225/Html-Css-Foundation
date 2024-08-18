@@ -1,0 +1,60 @@
+:root {
+    --backgroundcolor: rgb(250, 250, 8);
+    --generalbcolor: #FFFFFF;
+}
+
+body {
+    background-color: var(--backgroundcolor);
+    width: 100%;
+    font-family: inter;
+}
+
+.general {
+    background-color: var(--generalbcolor);
+    border: 6px solid black;
+    border-radius: 10px;
+    border-color: white black black white;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    width: 320px;
+    margin: auto;
+}
+
+img {
+    width: 290px;
+    margin: 20px 16px;
+    border-radius: 10px;
+}
+
+.Learning {
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid yellow;
+    margin-left: 16px;
+    padding: 8px;
+    background-color: var(--backgroundcolor);
+}
+
+.Dec {
+    margin: 14px 16px;
+}
+
+h3 {
+    margin: 0 16px;
+}
+
+.languages {
+    margin: 14px 16px;
+    color: rgb(39, 36, 36);
+}
+
+.pics {
+    width: 50px;
+    border-radius: 40px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
